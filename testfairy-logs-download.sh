@@ -6,7 +6,7 @@ function print_help() {
   echo "  app             - app id (the value after /project/)"
   echo "  build           - build id (the value after /builds/)"
   echo "  last-session-id - the largest session number for this build"
-  echo "  help       - print this help"
+  echo "  help            - print this help"
   echo
   echo "In order to get config parameters, go to the page with list of session you want to download and get the URL."
   echo "e.g. https://app.testfairy.com/projects/16629-mytestapp/builds/3345302/sessions"
