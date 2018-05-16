@@ -21,6 +21,7 @@ sectionHeader "NOT COVERED"
 comm -23 repos.tmp tests.tmp
 
 sectionHeader "STATS"
+echo "# REPOSITORY METHODS: " `cat repos.tmp | wc -l `
 echo "# COVERED: " `comm -12 repos.tmp tests.tmp | wc -l`
 echo "# TEST WITH WRONG NAMES: " `comm -13 repos.tmp tests.tmp | wc -l`
 echo "# NOT COVERED: " `comm -23 repos.tmp tests.tmp | wc -l`
